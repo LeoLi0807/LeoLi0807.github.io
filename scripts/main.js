@@ -16,7 +16,7 @@ myImage.onclick = function(){
       setAttribute: 設置 HTML 元素屬性值*/
     let mySrc = myImage.getAttribute("src");
     if(mySrc === "images/firefox-icon.png"){
-        myImage.setAttribute("src", "images/high.png");
+        myImage.setAttribute("src", "images/google-icon.png");
     }else{
         myImage.setAttribute("src", "images/firefox-icon.png");
     }
